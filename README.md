@@ -1,6 +1,8 @@
 <p align="center">
   <img width="250" height="250" src="https://github.com/robertcorponoi/graphics/blob/master/pixi-animator/logo.png?raw=true">
-  <span style="display: block; font-size:0.8rem;">Logo sprites from <a href="https://opengameart.org/content/a-platformer-in-the-forest">A Platformer in the Forest</a></span>
+</p>
+<p align="center">
+    <span style="display: block; font-size:0.8rem;">Logo sprites from <a href="https://opengameart.org/content/a-platformer-in-the-forest">A Platformer in the Forest</a></span>
 </p>
 
 <h1 align="center">PIXI Animator</h1>
