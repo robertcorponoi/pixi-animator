@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>PIXI Animator Tests</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css">
+</head>
+
+<body>
+    <div id="mocha"></div>
+
+    <script src="https://pixijs.download/release/pixi.min.js"></script>
+
+    <script src="https://unpkg.com/chai/chai.js"></script>
+    <script src="https://unpkg.com/mocha/mocha.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sinon.js/9.0.3/sinon.min.js"></script>
+
+    <script>mocha.setup('bdd')</script>
+
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./animation.test.js"></script>
+
+    <script type="module">
+        mocha.checkLeaks();
+        mocha.run();
+    </script>
+</body>
+
+</html>
