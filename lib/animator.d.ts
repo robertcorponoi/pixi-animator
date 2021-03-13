@@ -1,6 +1,6 @@
-import { Sprite } from '@pixi/sprite';
+import { Sprite } from 'pixi.js';
 import { AnimationClip } from './animation_clip';
-import { AnimationClips } from './interfaces/animation_clips';
+import { AnimationClips } from './@types/animation_clips';
 /**
  * The animator plays and manages AnimationClips.
  */

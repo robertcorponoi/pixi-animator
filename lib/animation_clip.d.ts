@@ -1,4 +1,4 @@
-import { Sprite } from '@pixi/sprite';
+import { Sprite } from 'pixi.js';
 /**
  * Defines an animation's sprites and properties.
  */
