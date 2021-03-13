@@ -1,6 +1,6 @@
 {
   "name": "pixi-animator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Provides a simple way to create animations from PIXI Sprites",
   "main": "index.js",
   "module": "pixi-animator.js",
